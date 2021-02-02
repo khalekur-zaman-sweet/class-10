@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background: lightsalmon;
+    
+
+}
+#position{
+    background: lightgreen;
+}
+.text{
+    height: 150px;
+    width: 150px;
+    border: 2px solid crimson;
+}
+.text1{
+    background: cyan;
+    
+}
+.text2{
+    background: crimson;
+    position: relative;
+    left: 150px;
+}
+.text3{
+    background: darkblue;
+    position: relative;
+    left: 300px;
+}
+.text4{
+    background: yellowgreen;
+    position: sticky;
+    left: 450px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.box{
+    height: 300px;
+    width: 30%;
+    border: 2px solid burlywood;
+    float: left;
+    margin: 15px;
+}
+.box1{
+    background: green;
+}
+.box2{
+    background: grey;
+
+}
+.box3{
+    background: red;
+}
+.box1:hover + .box2{
+    background: black;
+}
+.box2:hover + .box3{
+    background: lightslategrey;
+}
+ul li{
+    float: left;
+    margin-left:400px;
+   
+}
+ul li a{
+    text-decoration: none;
+}
